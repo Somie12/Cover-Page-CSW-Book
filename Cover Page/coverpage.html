@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+          page[size="A4"] {
+            width: 21cm;
+            height: 29.7cm;
+          }
+          .cover-page {
+            background-color: black;
+            margin: -10pxpx;
+            font-family: Arial;
+          }
+          .top-corner-image {
+            border-width: 2px;
+            margin-top: -px;
+            height: 100px;
+            width: 70%;
+            border-bottom-right-radius: 50px;
+            border-color: orangered;
+            border-style: solid;
+            border-width: 4px;
+            border-left: none;
+            border-top: none;
+          }
+          .publications-full-name {
+            color: white;
+            margin-left: 30px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            font-size: 16px;
+          }
+          .book-title {
+            margin-top: 20px;
+            margin-left: 30px;
+            color: orangered;
+            font-size: 50px;
+            line-height: 25px;
+            font-weight: 350;
+          }
+          .with {
+            font-weight: 100;
+          }
+          .author-name {
+            color: white;
+            margin-left: 30px;
+            margin-bottom: 12px;
+            font-size: 18px;
+          }
+          ul {
+            list-style-type: disc;
+          }
+          .bottom-text-box {
+            color: white;
+            background-color: rgba(10, 138, 89, 0.966);
+            display: inline-block;
+            padding-right: 30px;
+            border-top-right-radius: 45px;
+            border-width: 3px;
+            border-style: solid;
+            border-color: orangered;
+            border-left: none;
+            border-bottom: none;
+            margin-bottom: -30px;
+          }
+          .publications-name {
+            color: white;
+            position: relative;
+            left: 460px;
+            bottom: 20px;
+            text-transform: uppercase;
+            font-family: Georgia;
+            font-size: 16px;
+            font-weight: 100;
+          }
+        </style>
+      </head>
+      <body>
+        <page size="A4">
+          <div class="cover-page">
+            <div>
+              <img src="corner_image.jpg" class="top-corner-image" />
+            </div>
+            <div class="publications-full-name">
+              wiley emerging technology series
+            </div>
+            <div class="book-title">
+              <p>Full Stack</p>
+              <p>Java Devlopment</p>
+              <p><span class="with">with</span> Spring MVC,</p>
+              <p>Hibernate, jQuery,</p>
+              <p>and Bootstrap</p>
+            </div>
+            <div class="author-name">Mayur Ramgir</div>
+            <div class="bottom-text-box">
+              <ul>
+                <li>Starter Kit of full stack application.</li>
+                <li>Codes for all examples in the text.</li>
+                <li>Intructive Videos to supplement the text.</li>
+                <li>Possible Interview Question and Answers inside.</li>
+              </ul>
+            </div>
+            <div class="publications-name">wiley</div>
+          </div>
+        </page>
+      </body>
+    </html>
+  </body>
+</html>
